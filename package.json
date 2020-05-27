@@ -1,0 +1,24 @@
+{
+  "name": "vf-crypto-server",
+  "version": "1.0.0",
+  "description": "Express server for VF Crypto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "start:dev": "nodemon src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "query-string": "^6.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
+}
